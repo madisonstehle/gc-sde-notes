@@ -1,3 +1,5 @@
+_09/17/22, 10:00a-11:30a_
+
 # GC-SDE orientation, Programming IDE installation and walkthrough
 
 ## Staff

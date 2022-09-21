@@ -2,4 +2,5 @@
 
 ## Notes
 - Pre-Program Python Bootcamp
-  - [Orientation](py-bootcamp/orientation)
+  - [Orientation](py-bootcamp/orientation.md)
+  - [Python Basics](py-bootcamp/basics.md)
