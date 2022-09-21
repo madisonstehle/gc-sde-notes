@@ -294,3 +294,32 @@ Write code to output these two figures using string multiplication and loops.
 |        |	
 +/\/\/\/\+
 ```
+
+My Solution:
+
+```python
+# height = 7
+# width = 24
+
+height = 4
+width = 12
+
+for i in range(int(width/2)):
+    if i == 0:
+        print("+", sep="", end="")
+    elif i == width/2 - 1:
+        print("+", sep="")
+    else:
+        print("/", "\\", sep="", end="")
+
+for i in range(height - 2):
+    print("|", " " * (width - 4), "|", sep="")
+
+for i in range(int(width/2)):
+    if i == 0:
+        print("+", sep="", end="")
+    elif i == width/2 - 1:
+        print("+", sep="")
+    else:
+        print("/", "\\", sep="", end="")
+```
