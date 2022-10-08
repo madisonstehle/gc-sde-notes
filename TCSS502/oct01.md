@@ -11,7 +11,7 @@ _10/01/22, 1:30p-4:00p_
 ----
 ## Python Basics
 
-**`print()` Statements**
+### **`print()` Statements**
 
 Takes a input parameter and writes it to the console
 
@@ -19,17 +19,17 @@ Adding `end=''` at the end of your `print()` statements allows you to print with
 
 ![Escape Sequences](../img/EscapeSequences.png)
 
-**Function Syntax**
+### **Function Syntax**
 ```python
 def name(parameter):
   <statement>(s)
 ```
 
-**Arithmatic Operators**
+### **Arithmatic Operators**
 ![Operators](../img/operators.png)
 
 
-**`for` Loops**
+### **`for` Loops**
 ```python
 for variable in range (start, stop, step):    # Step parameter is optional
   statement
@@ -43,18 +43,18 @@ for i in range(10, 0, -1):      # Changes step to -1. Default is 1
   statement
 ```
 
-**Constant Variables**
+### **Constant Variables**
 
 Constant variables are usually indicated as ALL_UPPER_CASE. Assigment works the same as normal variable assignment. Should be set only at declaration and shouldn't be reassigned.
 
-**`Random`**
+### **`Random`**
 
 Generates pseudo-random numbers. Need to `import random` package
 
 ![Random](../img/random.png)
 
 
-**`if` Statements**
+### **`if` Statements**
 
 ```python
 if <test>:
@@ -73,7 +73,7 @@ If the statements end with an `else`, exactly one path must be taken. If it ends
 
 ![Nested If Statements Logic](../img/nestedif.png)
 
-**Strings & Indexes**
+### **Strings & Indexes**
 
 Characters of a string are numbered with 0-based indexes.
 - First character's index: 0
@@ -92,7 +92,7 @@ String methods are called using dot notation. Ex: `print(string.lower())`
 
 ![String Methods](../img/stringmethods.png)
 
-**`while` Loop**
+### **`while` Loop**
 
 Repeatedly executes its body as long as a logical test is true
 
@@ -101,7 +101,7 @@ while <test>:
   <statement>
 ```
 
-**File Input/Output (I/O)**
+### **File Input/Output (I/O)**
 
 ![File I/O](../img/fileinputoutput.png)
 
@@ -124,7 +124,7 @@ name.write(str) # writes the given string to the file
 name.close() # closes file once writing is done
 ```
 
-**List**
+### **List**
 
 Object that stoes many values. _element_ is a value in a list, and _index_ is a 0-based integer to access an element from a list.
 
@@ -140,7 +140,7 @@ List Functions:
 
 ![List Functions](../img/listfunctions.png)
 
-**Tuples**
+### **Tuples**
 
 Similar to a list, but cannot be altered. Good for storing related data.
 - store the same type of data in a list
@@ -157,7 +157,7 @@ low = tuple[1]
 
 ![Tuple Operations](../img/tupleOps.png)
 
-**Sets**
+### **Sets**
 
 A collection of unique values (no duplicates allowed) that can perform the following operations efficiently:
 - add, remove, search (contains)
@@ -168,7 +168,7 @@ A set with elements: `b = {"the", "hello", "happy"}`
 
 ![Sets](../img/sets.png)
 
-**Dictionaries**
+### **Dictionaries**
 
 Holds a set of unique keys and a collection of values, where each key is associated with on value.
 - aka map, associative array, hash
