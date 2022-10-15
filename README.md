@@ -23,7 +23,7 @@
 #### Notes
 - [Class 1: Basics of Python](TCSS502/oct01.md)
 - [Class 2: Object Oriented Programming Basics](TCSS502/oct08.md)
-- [Class 3: OO Syntax, Unit Tests, Intro to Versioning](TCSS502/oct15.md)
+- [Class 3: Syntax, Unit Tests, Intro to Versioning](TCSS502/oct15.md)
 
 #### Assignments
 - [Armstrong Numbers](TCSS502/assignments/armstrong_num.py)
