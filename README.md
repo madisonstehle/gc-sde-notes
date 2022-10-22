@@ -29,5 +29,5 @@ _____
 
 ### Assignments
 - [Armstrong Numbers](TCSS502/assignments/armstrong_num.py)
-- [Clock & Clockshop Classes]()
-  - [Student Class Example]()
+- [Clock & Clockshop Classes](TCSS502/assignments/mstehleassignment2/clock_things.md)
+  - [Student Class Example](TCSS502/examples/student.py)
