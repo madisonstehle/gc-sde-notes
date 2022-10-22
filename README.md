@@ -7,15 +7,19 @@
   - [Object Oriented Programming](py-bootcamp/oop.md)
   - [Debugging](py-bootcamp/debug.md)
 
-
+_____
 ## TCSS 501: Data Structures & Algorithms
 
 ### Notes
 - [Class 1: Why Algorithms & Big O](TCSS501/oct01.md)
-- [Class 2](TCSS501/oct08.md)
+- [Class 2: Complexity Classes](TCSS501/oct08.md)
 - [Class 3: Arrays & Linked Lists](TCSS501/oct15.md)
+- [Class 4: Stacks & Queues](TCSS501/oct22.md)
 
+### Assignments
+- [Assignment 1: Basic Palindrome Algorithm](TCSS501/assignments/palindrome.py)
 
+_____
 ## TCSS 502: Object Oriented Programming
 
 ### Notes
@@ -25,3 +29,5 @@
 
 ### Assignments
 - [Armstrong Numbers](TCSS502/assignments/armstrong_num.py)
+- [Clock & Clockshop Classes]()
+  - [Student Class Example]()
