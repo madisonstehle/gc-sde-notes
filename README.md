@@ -1,5 +1,7 @@
 # 22-23 Graduate Certificate in Software Development Engineering program (GC-SDE)
 
+## Resources
+- [Jetbrains Student](https://www.jetbrains.com/community/education/#students)
 
 ## Pre-Program Python Bootcamp
   - [Orientation](py-bootcamp/orientation.md)
