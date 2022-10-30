@@ -26,7 +26,7 @@ def name(parameter):
 ```
 
 ### **Arithmatic Operators**
-![Operators](../img/operators.png)
+![Operators](../../img/operators.png)
 
 
 ### **`for` Loops**
@@ -51,7 +51,7 @@ Constant variables are usually indicated as ALL_UPPER_CASE. Assigment works the 
 
 Generates pseudo-random numbers. Need to `import random` package
 
-![Random](../img/random.png)
+![Random](../../img/random.png)
 
 
 ### **`if` Statements**
@@ -67,11 +67,11 @@ else:
 
 `if` statements use logical tests via relational expressions
 
-![Relational Operators](./img/boolean.png)
+![Relational Operators](../../img/boolean.png)
 
 If the statements end with an `else`, exactly one path must be taken. If it ends with `if`, the code might not execute any path. 
 
-![Nested If Statements Logic](../img/nestedif.png)
+![Nested If Statements Logic](../../img/nestedif.png)
 
 ### **Strings & Indexes**
 
@@ -90,7 +90,7 @@ mid = s[1,3] # "er"
 
 String methods are called using dot notation. Ex: `print(string.lower())`
 
-![String Methods](../img/stringmethods.png)
+![String Methods](../../img/stringmethods.png)
 
 ### **`while` Loop**
 
@@ -103,7 +103,7 @@ while <test>:
 
 ### **File Input/Output (I/O)**
 
-![File I/O](../img/fileinputoutput.png)
+![File I/O](../../img/fileinputoutput.png)
 
 ```python
 # Better Style
@@ -138,7 +138,7 @@ numbers = [0] * 4 # [0, 0, 0, 0]
 
 List Functions:
 
-![List Functions](../img/listfunctions.png)
+![List Functions](../../img/listfunctions.png)
 
 ### **Tuples**
 
@@ -155,7 +155,7 @@ low = tuple[1]
 # is 80
 ```
 
-![Tuple Operations](../img/tupleOps.png)
+![Tuple Operations](../../img/tupleOps.png)
 
 ### **Sets**
 
@@ -166,7 +166,7 @@ An empty set: `a = set()`
 
 A set with elements: `b = {"the", "hello", "happy"}`
 
-![Sets](../img/sets.png)
+![Sets](../../img/sets.png)
 
 ### **Dictionaries**
 
@@ -183,16 +183,16 @@ my_dict[key] = value
 my_dict[key]
 ```
 
-![Dictionary Operations](../img/dictionaries.png)
+![Dictionary Operations](../../img/dictionaries.png)
 
-![Dictionary Functions](../img/dictoops.png)
+![Dictionary Functions](../../img/dictoops.png)
 
 ****
 
 
 ### Python's Math Class
 
-![Python Math Classes](../img/MathClasses.png)
+![Python Math Classes](../../img/MathClasses.png)
 
 
 

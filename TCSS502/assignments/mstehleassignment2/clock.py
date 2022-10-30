@@ -4,7 +4,7 @@ from datetime import datetime
 class Clock:
     """
     A simple Clock class to represent time in hours, minutes, and seconds.
-    The type of time it represents is military time (hours are from 0 to 23,
+    The type of time it represents is in military time (hours are from 0 to 23,
     with 0 representing midnight and 23 representing 11pm).
         1) constructor __init__() create a Clock object and specify the starting hour, minute, and second via integer parameters.
           it defaults to 00:00:00 (hours, minutes, seconds) (12am) if no values are specified at creation
@@ -16,10 +16,26 @@ class Clock:
           (ex: 18 -- which means it is 6pm) -- the value returned should be the hour
         5) minute(self): the object will report as follows: mm
           (ex: 56) -- the value returned should be the minute
-        6)
-        7)
-        8)
-        9)
+        6) second(self): the object will report as follows: ss
+          (ex: 29) -- the value returned should be the seconds
+        7) set_hour(self, new_hour): accepts a number from 0 through 23 and sets the clock hour.
+           Does not return any value
+        8) set_minute(self, new_minute): accepts a number from 0 through 59 and sets the clock minute.
+           Does not return any value
+        9) set_second(self, new_second): accepts a number from 0 through 59 and sets the clock second.
+           Does not return any value
+        10) advance_hour(self, amount_to_advance): advances the current hour. Accepts a number 0 or greater
+            Does not return any value
+        11) advance_minute(self, amount_to_advance): advances the current minute and updates hour if necessary.
+            Accepts a number 0 or greater. Does not return any value
+        12) set_to_current_time(self): sets the clock time to the current time based on the system time.
+            Does not return any value
+        13) __eq__(self, other): compares against another Clock object for equality in hours, minutes, and seconds.
+            Returns True or False
+        14) __lt__(self, other): compares against another Clock object for if current clock’s time is before other clock.
+            Returns True or False
+        15) __gt__(self, other): compares against another Clock object for if current clock’s time is after other clock.
+            Returns True or False
     """
     def __init__(self, hours=00, minutes=00, seconds=00):
         self.hours = hours
@@ -134,17 +150,3 @@ class Clock:
         else:
             return False
 
-# testClock = Clock()
-# oneClock = Clock(0, 3, 0)
-# twoClock = Clock(0, 3, 1)
-# print(testClock)
-
-# print(testClock.set_hour(-1))
-
-# testClock.advance_hour(1)
-# testClock.advance_minute(121)
-# testClock.set_to_current_time()
-
-# print(testClock)
-# print(oneClock.__gt__(twoClock))
-# oneClock.__lt__(24)

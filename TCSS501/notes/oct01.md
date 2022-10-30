@@ -44,7 +44,7 @@ Build Up/Cache smaller problems (solve n-1)
 - ex. The knapsack problem
 - common patterns: table/matrix building
 
-![Types of Algorithms](../img/algorithmtypes.png)
+![Types of Algorithms](../../img/algorithmtypes.png)
 
 
 ____
@@ -73,7 +73,7 @@ How fast does the number of calculations grow as n grows larger?
 
 We must find/derive a function f(n) that describes the number of operations as n increases.
 
-![Growth Rate Function Graph](../img/growthratefunction.png)
+![Growth Rate Function Graph](../../img/growthratefunction.png)
 
 Look for patterns or constructs in the code that loop over the input (for/while/do)
 
@@ -111,7 +111,7 @@ print('Wasnt that fun!')          # CONSTANT
 # 3n^2
 ```
 
-![Big-Oh Defined](../img/BigODefined.png)
+![Big-Oh Defined](../../img/BigODefined.png)
 
 
 ### Common Big O Values
@@ -125,7 +125,7 @@ print('Wasnt that fun!')          # CONSTANT
 - O(n!) - Factorial (Travelling salesman problem)
 
 
-![Time Complexity Execution Time Examples](../img/TimeComplexEx.png)
+![Time Complexity Execution Time Examples](../../img/TimeComplexEx.png)
 
 ### Toy Example
 

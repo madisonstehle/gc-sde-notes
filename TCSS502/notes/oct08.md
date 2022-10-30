@@ -30,7 +30,7 @@ define the behaviors
 ## Object Oriented Programming
 Create objects and function based on the design
 
-![Object Oriented Programming Structure](../img/OOP.png)
+![Object Oriented Programming Structure](../../img/OOP.png)
 
 ## Objects and Classes
 
@@ -79,7 +79,7 @@ Design a UML class diagram that describe
 - The Triangle has three points (Point) to form a Shape. We have two special triangles called RightTriangle and EquivalentTriangle
 - The Circle has a center Point and an integer radius
 
-[Our Solution](../img/ClassUMLExercise.drawio.png)
+[Our Solution](../../img/ClassUMLExercise.drawio.png)
 _____
 
 ### OO Class

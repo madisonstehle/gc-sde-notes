@@ -110,7 +110,7 @@ ______
 
 A data structure consisting of a series of nodes with one or more links between successive nodes. They are said to have an order and each node has a limited knowledge of the other nodes.
 
-![LinkedList](../img/LinkedList.png)
+![LinkedList](../../img/LinkedList.png)
 
 ### Nodes
 
@@ -118,7 +118,7 @@ Nodes are foundation blocks of **Lists** (and many other data structures).
 
 In its most simple definition a **Node** is a container of data that has possible relationships (or **links**) with one or more other **Nodes**.
 
-![Node Basic Structure](../img/Node.png)
+![Node Basic Structure](../../img/Node.png)
 
 **Basic Node Class:**
 
@@ -327,7 +327,7 @@ def clear(self):
 ```
 
 ### Complexity Summary for Linked Lists
-![Linked List Complexity Sorting](../img/LLComplexitySummary.png)
+![Linked List Complexity Sorting](../../img/LLComplexitySummary.png)
 
 
 

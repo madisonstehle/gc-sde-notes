@@ -5,13 +5,13 @@ _10/22/22, 9:30a-12:00p_
 ## Assignment 1 Review
 
 ### **Question 1:**
-![Question 1](../img/Question1HW1.png)
+![Question 1](../../img/Question1HW1.png)
 
 ### **Question 2:**
-![Question 2](../img/Question2HW1.png)
+![Question 2](../../img/Question2HW1.png)
 
 ### **Question 3:**
-> My Solution: [palindrome.py](./assignments/palindrome.py)
+> My Solution: [palindrome.py](../assignments/palindrome.py)
 
 1. Treat a string as an array of characters: so you can use indexes
 ```python
@@ -36,12 +36,12 @@ When do you stop the pointer? When the indexes meet or overlap, or if they find 
 ```python
 while idx_a < idx_b:
 ```
-![Palindrome Solution 1](../img/palindromesolution.png)
+![Palindrome Solution 1](../../img/palindromesolution.png)
 
 #### ASCII & Bitwise Solution
 
 It can be done WITHOUT `.lower()`! To swap uppercase/lowercase, you can use an ASCII table:
-![ASCII Table](../img/ASCIITable.png)
+![ASCII Table](../../img/ASCIITable.png)
 
 Upper and lower case are 32 apart, so you can toggle.
 
@@ -57,7 +57,7 @@ mask = 11011111
 m & mask = 01001101
 M & mask = 01001101
 
-![ASCII Palindrome Solution](../img/ASCIIPalindrome.png)
+![ASCII Palindrome Solution](../../img/ASCIIPalindrome.png)
 
 _____
 ## Stacks

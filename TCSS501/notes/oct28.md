@@ -75,7 +75,7 @@ Though mathematically "undirected", we think of trees as having a parent-child r
 
 ### Tree Vocabulary
 
-![Tree Vocabulary](../img/treevocab.png)
+![Tree Vocabulary](../../img/treevocab.png)
 
 
 ### Binary Trees

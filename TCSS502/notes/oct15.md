@@ -56,14 +56,14 @@ except ValueError as e:
 ```
 
 How execute whether or not exception has occurred?
-![How to handle exceptions](../img/HandlingExceptions.png)
+![How to handle exceptions](../../img/HandlingExceptions.png)
 
 ### Exception Hierarchy
 Most Exceptions are subclasses of `Exception` class
 - `SystemExit`: when the user selected an exit menu item, click the close button on a wind or entered a command to shut down a server
 - `KeyboardInterrupt`: when the user explicitly interrupts program execution (ctrl + C)
 
-![Exception Subclasses](../img/ExceptionClasses.png)
+![Exception Subclasses](../../img/ExceptionClasses.png)
 
 ### Define our own
 Just inherit from the Exception class.
