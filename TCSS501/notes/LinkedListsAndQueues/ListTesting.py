@@ -1,10 +1,10 @@
 from LinkedList import LinkedList
-from LinkedList import Deque
+# from LinkedList import Deque
 
 # Create new thing for testing
-# list = LinkedList()
-queue = Deque()
-tempQueue = Deque()
+list = LinkedList()
+# queue = Deque()
+# tempQueue = Deque()
 
 # Add things to the list
 # list.append("String 1")
@@ -22,14 +22,14 @@ tempQueue = Deque()
 
 # ====ITERATE BEFORE TESTING THE FUNCTIONS====
 
-# for i in list.iter():
-#     print(i)
+for i in list.iter():
+    print(i)
 
-print('Size: ', queue.size)
-curr = queue.first
-while (curr is not None):
-    print(curr.data)
-    curr = curr.prev
+# print('Size: ', queue.size)
+# curr = queue.first
+# while (curr is not None):
+#     print(curr.data)
+#     curr = curr.prev
 
 # ------------------------------------------------
 
@@ -55,21 +55,21 @@ print('==============')
 
 # ====REVERSED TESTS====
 # oop_reversed_list = list.reverse()
-# list.reverse(in_place=True)
+list.reverse(in_place=True)
 
 # ------------------------------------------------
 
 print('==============')
 
 # ====ITERATE AFTER RUNNING FUNCTIONS====
-# for i in list.iter():
-#     print(i)
+for i in list.iter():
+    print(i)
 
-print('Size: ', queue.size)
-curr = queue.first
-while (curr is not None):
-    print(curr.data)
-    curr = curr.prev
+# print('Size: ', queue.size)
+# curr = queue.first
+# while (curr is not None):
+#     print(curr.data)
+#     curr = curr.prev
 
 # ====SPECIAL ITERATE FOR OUT OF PLACE REVERSED====
 # for i in oop_reversed_list.iter():

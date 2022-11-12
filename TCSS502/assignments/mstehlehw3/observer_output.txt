@@ -1,0 +1,11 @@
+/Users/madisons/Code/study/uw/myWork/gc-sde-notes/venv/bin/python /Users/madisons/Code/study/uw/myWork/gc-sde-notes/TCSS502/assignments/mstehlehw3/my_tester.py
+Change Spotted by Saruman:
+There are 1 dwarves, 0 humans, 2 elves, and 1 hobbits!
+Change Spotted by Witch King:
+There are 1 dwarves, 0 humans, 2 elves, and 1 hobbits!
+Saruman was defeated!
+Change Spotted by Witch King:
+There are 1 dwarves, 100 humans, 1 elves, and 4 hobbits!
+
+Process finished with exit code 0
+
