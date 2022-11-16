@@ -1,0 +1,14 @@
+from Shape import Shape
+
+class Square(Shape):
+  def __init__(self, length_of_side):
+    self.__name = "Square"
+    self.side_length = length_of_side
+
+
+  def area(self):
+    return self.side_length * self.side_length
+
+
+  def perimeter(self):
+    return self.side_length * 4
