@@ -14,3 +14,7 @@ class Circle(Shape):
 
   def perimeter(self):
     return 2 * math.pi * self.radius
+
+
+  def draw(self):
+    print(f"{self.__name}: area: {self.area()}, perimeter: {self.perimeter()}")

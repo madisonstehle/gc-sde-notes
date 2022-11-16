@@ -18,15 +18,3 @@ class ShapeFactory():
       raise AssertionError("Shape Type is not valid")
     except AssertionError as e:
       print(e)
-
-
-# c = ShapeFactory.create_shape("Circle", radius=20)
-# t = ShapeFactory.create_shape("Triangle", tri_side_1=10, tri_side_2=10, tri_side_3=10)
-# r = ShapeFactory.create_shape("Rectangle", rect_tb_sides=20, rect_rl_sides=10)
-# s = ShapeFactory.create_shape("Square", sq_sides=15)
-# # wrong = ShapeFactory.create_shape("Dodecahedron") # will print error
-#
-# print(c.area())
-# print(t.area())
-# print(r.area())
-# print(s.area())

@@ -19,3 +19,7 @@ class Triangle(Shape):
 
     def perimeter(self):
         return self.side_1 + self.side_2 + self.side_3
+
+
+    def draw(self):
+        print(f"{self.__name}: area: {self.area()}, perimeter: {self.perimeter()}")
