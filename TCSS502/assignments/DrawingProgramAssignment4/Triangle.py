@@ -10,6 +10,10 @@ class Triangle(Shape):
         self.side_3 = side_length_3
 
 
+    def get_name(self):
+        return self.__name
+
+
     def area(self):
         half_perimeter = (self.side_1 + self.side_2 + self.side_3) / 2
         area_squared = half_perimeter * (half_perimeter - self.side_1) * (half_perimeter - self.side_2) * (

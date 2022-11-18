@@ -8,6 +8,10 @@ class Rectangle(Shape):
     self.rl_sides = right_left_side_length
 
 
+  def get_name(self):
+    return self.__name
+
+
   def area(self):
     return self.tb_sides * self.rl_sides
 

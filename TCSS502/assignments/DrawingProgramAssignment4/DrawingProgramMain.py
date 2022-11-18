@@ -20,4 +20,28 @@ class DrawingProgramMain():
   drawing_program.add_shape(s)
   drawing_program.add_shape(t)
 
-  drawing_program.print_shape("Triangle")
+  for shape in drawing_program.list_of_shapes:
+    print(shape.get_name())
+
+  print("============")
+
+  # drawing_program.print_shape("Circle")
+  # drawing_program.remove_shape(("Triangle"))
+
+  # numbers = DrawingProgram()
+  # numbers.add_shape(3)
+  # numbers.add_shape(5)
+  # numbers.add_shape(1)
+  # numbers.add_shape(2)
+  # numbers.add_shape(4)
+  #
+  # for num in numbers.list_of_shapes:
+  #   print(num)
+  #
+  # numbers.sort_shapes()
+
+  drawing_program.sort_shapes()
+
+  print("============")
+  for shape in drawing_program.list_of_shapes:
+    print(shape.get_name())

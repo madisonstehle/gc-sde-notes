@@ -32,23 +32,25 @@ class DrawingProgram():
         a method that removes ALL shapes that match the one passed as a parameter --
         it should return in integer value to signify how many of that shape was removed
         """
-        count_removed = 0
+        count = 0
 
-        # do the removal work
+        for Shape in self.list_of_shapes:
+            if shape == Shape.get_name():
+                self.list_of_shapes.remove(Shape)
+                count += 1
 
-        return count_removed
+        print(f"{count} {shape} were removed from the list")
+        return count
 
     def print_shape(self, shape):
         """
         prints all shapes that match the type of the shape passed in
         """
-        for index in range (0, len(self.list_of_shapes)):
-            try:
-                if shape == getattr(self.list_of_shapes[index], f"_{shape}__name"):
-                    print(self.list_of_shapes[index])
-            except:
-                pass
-
+        count = 0
+        for Shape in self.list_of_shapes:
+            if shape == Shape.get_name():
+                count += 1
+                print(Shape)
 
     def sort_shapes(self):
         """
@@ -57,7 +59,70 @@ class DrawingProgram():
         shapes will be sorted first by name, then by area if names are same
         """
         # probably use merge sort here, since it is O(nlogn)
-        pass
+        self.merge_sort(self.list_of_shapes)
+
+        # List = self.list_of_shapes
+        #
+        # if len(List) > 1:  # if the list isn't empty
+        #     left_list = List[:len(List) // 2]  # returns slice of origional array at 0, ending at end divided by 2
+        #     right_list = List[
+        #                  len(List) // 2:]  # starts at len of list divided by 2 goes to the end (// is floor divison**)
+        #
+        #     # recursion time
+        #     self.sort_shapes(left_list)  # splitting left and right
+        #     self.sort_shapes(right_list)  # should do this recursively
+        #
+        #     # time to merge!
+        #     L = 0  # left list index
+        #     R = 0  # right list index
+        #     M = 0  # merged list index
+        # while L < len(left_list) and R < len(right_list):  # now we're just comparing and updating
+        #     if left_list[L].get_name() < right_list[R].get_name():
+        #         List[M] = left_list[L]
+        #         L += 1
+        #     else:
+        #         List[M] = right_list[R]
+        #         R += 1
+        #     M += 1  # constantly update merged list index
+        # while L < len(left_list):
+        #     List[M] = left_list[L]
+        #     L += 1
+        #     M += 1
+        # while R < len(right_list):
+        #     List[M] = right_list[R]
+        #     R += 1
+        #     M += 1
+
+    def merge_sort(self, List):
+        if len(List) > 1:  # if the list isn't empty
+            left_list = List[:len(List) // 2]  # returns slice of origional array at 0, ending at end divided by 2
+            right_list = List[
+                         len(List) // 2:]  # starts at len of list divided by 2 goes to the end (// is floor divison**)
+
+            # recursion time
+            self.merge_sort(left_list)  # splitting left and right
+            self.merge_sort(right_list)  # should do this recursively
+
+            # time to merge!
+            L = 0  # left list index
+            R = 0  # right list index
+            M = 0  # merged list index
+            while L < len(left_list) and R < len(right_list):  # now we're just comparing and updating
+                if left_list[L].get_name() < right_list[R].get_name():
+                    List[M] = left_list[L]
+                    L += 1
+                else:
+                    List[M] = right_list[R]
+                    R += 1
+                M += 1  # constantly update merged list index
+            while L < len(left_list):
+                List[M] = left_list[L]
+                L += 1
+                M += 1
+            while R < len(right_list):
+                List[M] = right_list[R]
+                R += 1
+                M += 1
 
     def get_shape(self, index):
         """

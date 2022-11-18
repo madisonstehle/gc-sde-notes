@@ -6,6 +6,10 @@ class Square(Shape):
     self.side_length = length_of_side
 
 
+  def get_name(self):
+    return self.__name
+
+
   def area(self):
     return self.side_length * self.side_length
 

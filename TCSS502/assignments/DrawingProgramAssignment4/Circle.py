@@ -8,6 +8,10 @@ class Circle(Shape):
     self.radius = radius
 
 
+  def get_name(self):
+    return self.__name
+
+
   def area(self):
     return math.pi * (self.radius ** 2)
 
