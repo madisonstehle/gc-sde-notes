@@ -61,37 +61,6 @@ class DrawingProgram():
         # probably use merge sort here, since it is O(nlogn)
         self.merge_sort(self.list_of_shapes)
 
-        # List = self.list_of_shapes
-        #
-        # if len(List) > 1:  # if the list isn't empty
-        #     left_list = List[:len(List) // 2]  # returns slice of origional array at 0, ending at end divided by 2
-        #     right_list = List[
-        #                  len(List) // 2:]  # starts at len of list divided by 2 goes to the end (// is floor divison**)
-        #
-        #     # recursion time
-        #     self.sort_shapes(left_list)  # splitting left and right
-        #     self.sort_shapes(right_list)  # should do this recursively
-        #
-        #     # time to merge!
-        #     L = 0  # left list index
-        #     R = 0  # right list index
-        #     M = 0  # merged list index
-        # while L < len(left_list) and R < len(right_list):  # now we're just comparing and updating
-        #     if left_list[L].get_name() < right_list[R].get_name():
-        #         List[M] = left_list[L]
-        #         L += 1
-        #     else:
-        #         List[M] = right_list[R]
-        #         R += 1
-        #     M += 1  # constantly update merged list index
-        # while L < len(left_list):
-        #     List[M] = left_list[L]
-        #     L += 1
-        #     M += 1
-        # while R < len(right_list):
-        #     List[M] = right_list[R]
-        #     R += 1
-        #     M += 1
 
     def merge_sort(self, List):
         if len(List) > 1:  # if the list isn't empty
@@ -108,7 +77,14 @@ class DrawingProgram():
             R = 0  # right list index
             M = 0  # merged list index
             while L < len(left_list) and R < len(right_list):  # now we're just comparing and updating
-                if left_list[L].get_name() < right_list[R].get_name():
+                if left_list[L].get_name() == right_list[R].get_name():
+                    if left_list[L].area() < right_list[R].area():
+                        List[M] = left_list[L]
+                        L += 1
+                    else:
+                        List[M] = right_list[R]
+                        R += 1
+                elif left_list[L].get_name() < right_list[R].get_name():
                     List[M] = left_list[L]
                     L += 1
                 else:
