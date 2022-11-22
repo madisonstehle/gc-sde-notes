@@ -19,7 +19,8 @@ class DrawingProgram():
         returns a string representation of each of the shapes --
         each shape will be separated from others by a newline (\n)
         """
-        pass
+        for Shape in self.list_of_shapes:
+            Shape.draw()
 
     def add_shape(self, shape):
         """
@@ -39,7 +40,6 @@ class DrawingProgram():
                 self.list_of_shapes.remove(Shape)
                 count += 1
 
-        print(f"{count} {shape} were removed from the list")
         return count
 
     def print_shape(self, shape):
@@ -50,7 +50,7 @@ class DrawingProgram():
         for Shape in self.list_of_shapes:
             if shape == Shape.get_name():
                 count += 1
-                print(Shape)
+                Shape.draw()
 
     def sort_shapes(self):
         """

@@ -21,4 +21,6 @@ class Circle(Shape):
 
 
   def draw(self):
-    print(f"{self.__name}: area: {self.area()}, perimeter: {self.perimeter()}")
+    r_string = f"{self.__name}: area: {self.area()}, perimeter: {self.perimeter()}"
+    print(r_string)
+    return r_string
