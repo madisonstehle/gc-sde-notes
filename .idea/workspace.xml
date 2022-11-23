@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6c75227-0109-4e90-b8c7-547323c1ea6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/Output DrawingProgamMain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/Output Unittests.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/Circle.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/Circle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/DrawingProgram.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/DrawingProgram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/DrawingProgramIterator.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/DrawingProgramIterator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/DrawingProgramMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/DrawingProgramMain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/Rectangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/Rectangle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/Shape.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/Shape.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/Square.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/Square.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/Triangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCSS502/assignments/DrawingProgramAssignment4/Triangle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
