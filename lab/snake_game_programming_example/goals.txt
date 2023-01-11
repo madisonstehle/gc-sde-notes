@@ -1,0 +1,13 @@
+Some goals for the game:
+
+1. Change the movement system to be similar to snake (e.g. constant movement with wasd changing direction) (hard)
+1. Somehow animate the player's movement (requires creativity)
+2. Make it so that the player can die by hitting walls, change the sprite to a different emoji (skull emoji maybe?) (easy)
+DONE 3. Make collecting apples increase your points and write the points to the console using world.ui (easy)
+4. Make collecting apples increase the size of the snake. Snake pieces must follow player object which will be the head (hard)
+5. Make a game over screen (e.g. destroy all objects in the world and replace them with something else) (medium)
+5.a Allow the player to restart the game (medium)
+6. Make the player press a button to start the game (easy)
+DONE 7. Make it so that Apples randomly appear around the map (easy)
+7.a Make it so that Apples can never appear on top of other objects (medium)
+7.b Make it so that if there is no place for an Apple to spawn the player wins (medium)

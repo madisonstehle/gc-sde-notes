@@ -44,3 +44,21 @@ _____
 - [Armstrong Numbers](TCSS502/assignments/armstrong_num.py)
 - [Clock & Clockshop Classes](TCSS502/assignments/mstehleassignment2/clock_things.md)
   - [Student Class Example](TCSS502/examples/student.py)
+
+
+
+_____
+## TCSS 503: Analysis and Problem Solving for Software Engineers
+
+
+### Notes 
+- [Class 1: Course Introduction](TCSS503/notes/jan07.md)
+
+
+
+_____
+## TCSS 504: Software Engineering And Development Techniques
+
+
+### Notes 
+- [Class 1: Syllabus & Overview](TCSS504/notes/jan07.md)
